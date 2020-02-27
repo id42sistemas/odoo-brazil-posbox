@@ -5,8 +5,8 @@ from threading import Thread, Lock
 from requests import ConnectionError
 from decimal import Decimal
 import StringIO
-import openerp.addons.hw_proxy.controllers.main as hw_proxy
-from openerp import http
+import odoo.addons.hw_proxy.controllers.main as hw_proxy
+from odoo import http
 import base64
 import re, string
 
